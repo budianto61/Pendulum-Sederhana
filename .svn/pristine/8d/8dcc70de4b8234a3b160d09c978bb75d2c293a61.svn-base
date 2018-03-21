@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Materi - Ayunan Bandul| Kelompok FYP-08</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="brand">AYUNAN BANDUL</div>
+    <div class="address-bar">***PEMBELAJARAN FISIKA***</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Ayunan Bandul</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+			<br><a href="http://dev-pa1.del.ac.id/"><img src="img/ITDel.jpg"  style="float:left" width="80" height="70"></a>
+			<img src="img/logo1.png"  style="float:left" width="80" height="70">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="materi.html">MATERI</a>
+                    </li>
+                    <li>
+                        <a href="about.html">TENTANG WEB</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">HUBUNGI KAMI</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+	<ul class="breadcrumb">
+			<li><a href="index.html">HOME</a></li>
+			<li class="active">MATERI</li>
+		</ul>
+        <div class="row">
+            <div class="box">
+             <!--   <div class="col-lg-12">
+                    <hr>
+                    <strong><h2 class="intro-text text-center">Getaran</strong>
+                    </h2>
+                    <hr>
+                </div>	-->
+                <div class="col-lg-12 text-center">
+                <!--    <img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt=""> -->
+                    <h2>Pengertian Getaran
+                        <br>
+                     <!--   <small>October 13, 2013</small>-->
+                    </h2>
+                    <p align="justify">Peristiwa getaran sering kali kita temui di dalam kehidupan sehari – hari, tapi mungkin masih sedikit yang memahami bahwa 
+					peristiwa tersebut adalah getaran Pernahkah kamu melihat jam dinding yang memakai bandul? Jarum jam tersebut bergerak akibat 
+					adanya gerak&nbsp;&nbsp;&nbsp; bolak-balik bandul. Gerakan bandul itu disebut getaran.Getaran adalah suatu gerak bolak – balik di sekitar kese-
+					timbangan, dimana kesetimbangan yang dimaksud adalah keadaan suatu benda berada pada posisi diam jika tidak ada gaya yang bek
+					erja pada benda tersebut. Satu getaran dikatakan satu kali bergetar penuh jika bergetar dari titik awal kembali ke titik tersebut.</p>
+                    <a href="materi_total.html" class="btn btn-default btn-lg">Read More</a>
+				<!--	<script>
+					function budianto(){
+						var kiri = (screen.width/2)-(500);
+						var atas = (screen.height/2)-(300);
+						return window.open("materi_total.html", "budi", 'toolbar=no, directories=no, status=no, menubar=no, width=1000, height=600, top='+atas+', left='+kiri);
+						
+					}
+					
+					</script> -->
+                    <hr/>
+                </div>
+                <div class="col-lg-12 text-center">
+                 <!--   <img class="img-responsive img-border img-full" src="img/slide-2.jpg" alt=""> -->
+                    <h2>Soal dan Pembahasan
+                        <br>
+                        <!--   <small>October 13, 2013</small>-->
+                    </h2>
+                    <p align="justify">1. &nbsp; Sebuah bandul sederhana terdiri dari tali yang mempunyai panjang 40 cm dan pada ujung bawah tali digantungi beban bermassa 100 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gram. Jika percepatan gravitasi 10 m/s2 maka periode dan frekuensi ayunan bandul sederhana adalah…...</p>
+					<p align="justify">Pembahasan &nbsp; :<br>
+										Dik &nbsp; : &nbsp; panjang tali (l) = 40 cm = 0,4 meter<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;percepatan gravitasi (g) = 10 m/s^2<br>
+					Dit &nbsp; : &nbsp;Periode (T) dan Frekuensi (f)<br></p>
+                    <a href="soal_pembahasan.html" class="btn btn-default btn-lg">Read More</a>
+				<!--	<script>
+					function kristine(){
+						var kiri = (screen.width/2)-(500);
+						var atas = (screen.height/2)-(300);
+						return window.open("soal_pembahasan.html", "kristin", 'toolbar=no, directories=no, status=no, menubar=no, width=1000, height=600, top='+atas+', left='+kiri);
+						
+					}
+					</script> -->
+                    <hr />
+                </div>
+                <div class="col-lg-12 text-center">
+                <!--    <img class="img-responsive img-border img-full" src="img/slide-3.jpg" alt=""> -->
+                    <h2>Soal Latihan
+                        <br>
+                        <!--   <small>October 13, 2013</small>-->
+                    </h2>
+                    <p align="justify">1. Periode suatu getaran adalah 1/2 detik. Tentukan:
+					<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;a) frekuensi getaran</p>
+					<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;b) jumlah getaran dalam 5 menit</p>
+					<p></p>
+					<p align="justify">2. Frekuensi suatu getaran adalah 5 Hz. Tentukan:
+					<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;a) periode getaran
+					<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;b) banyak getaran yang terjadi dalam 2 menit</p>
+					<p></p>
+                    <a href="soal_latihan.html" class="btn btn-default btn-lg">Read More</a>
+				<!--	<script>
+					function yohana(){
+						var kiri = (screen.width/2)-(500);
+						var atas = (screen.height/2)-(300);
+						return window.open("soal_latihan.html", "yoha", 'toolbar=no, directories=no, status=no, menubar=no, width=1000, height=600, top='+atas+', left='+kiri);	
+					}
+					</script> -->
+                    <hr />
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="copyright.html"><p>&copy; Kelompok FYP-08 2015</p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Materi belajar - Ayunan Bandul| Kelompok FYP-08</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+	
+	<link href="css/nav.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="brand">AYUNAN BANDUL</div>
+    <!--  <div class="address-bar">***PEMBELAJARAN FISIKA***</div> -->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation" style="padding-left: 78px">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">AYUNAN BANDUL</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+			<br><a href="http://dev-pa1.del.ac.id/"><img src="img/ITDel.png"  style="float:left; margin-top: 11px;" width="80" height="70"></a>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div id="navigation">
+                <ul class="nav navbar-nav">
+                    <li style="padding-bottom: 15px">
+                        <a href="index.html"><strong>BERANDA</strong></a>
+                    </li>
+                    <li>
+                        <a href="materi.html"><strong>MATERI</strong></a>
+                    </li>
+                    <li>
+                        <a href="about.html"><strong>TENTANG WEB</strong></a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><strong>HUBUNGI KAMI</strong></a>
+                    </li>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="index.html"><img src="img/logo1.png"  style="float:right; margin-top: 11px;" width="80" height="70" class="img-thumbnail" /></a>
+                </ul>
+            </div>
+			</div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+	<ul class="breadcrumb" style="margin-left:-16px; margin-right:-15px; border-left-style:solid; border-left-width:0px; padding-left:20px;">
+		<li><a href="index.html">BERANDA</a></li>
+		<li><a href="materi.html">MATERI</a></li>
+		<li class="active">Pengertian Getaran</li>
+	</ul>
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <strong><h1 class="intro-text text-center"><font color="black">
+						Pendulum</font>
+					</strong>
+                    </h1>
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <!--<img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt="">-->
+                    <h3 align="center"><font color="black">Pengertian Pendulum
+                        <br>
+                     <!--   <small>October 13, 2013</small>-->
+                    </font></h3>
+                    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Menurut kamus KBBI, ayunan disebut juga dengan pendulum yang berarti bandul yang bergantung pada seutas tali (rantai, dsb) atau gantungan yang relatif panjang.
+										Dalam arti ilmiah, pendulum adalah suatu gerak harmonis yang berada di sekitar titik setimbang yang arahnya berayun ke kiri dan ke kanan. Pendulum terdiri menjadi 2 bagian;<i> pendulum sederhana dan pendulum fisis.</p>
+					<p align="justify"> 
+						&nbsp;&nbsp;&nbsp;&nbsp;<b>Pendulum Sederhana</b> adalah suatu  partikel dengan massa m yang digantungkan dengan perpanjangan tali, dimana tali tersebut tidak bermassa dan memiliki panjang(l).
+						<!--<center><img src="img/slide-2.jpg" width="320" height="190" alt=""></center>-->
+					</p>
+					<p align="justify">
+						&nbsp;&nbsp;&nbsp;&nbsp;<b>Pendulum Fisis</b> adalah Sembarang benda tegar yang digantung yang dapat berayun/bergetar/berisolasi dalam bidang vertical terhadap sumbu tertentu.
+					</p>
+					<p align="justify">
+						Sekarang kita akan membahas tentang pendulum sederhana. 
+					</p>
+					<H3><strong><font color="black">Pendulum Sederhana</font></strong></H3>
+                        
+                     <!--   s<small>October 13, 2013</small>-->
+					<p align="justify">
+						&nbsp;&nbsp;&nbsp;&nbsp;Seperti yang sudah dijelaskan di atas, Pendulum Sederhana adalah suatu  partikel dengan massa m yang digantungkan dengan perpanjangan tali, dimana tali tersebut tidak bermassa dan memiliki panjang(l).
+					</p>
+					<p align="justify">
+						&nbsp;&nbsp;&nbsp;&nbsp;Ketika bandul tersebut ditarik ke satu arah dari posisi kesetimbangannya dan kemudian dilepas, ayunan bandul berada di bidang vertical di bawah pengaruh gravitasi. 
+						Suatu partikel dengan massa m pada pendulum sederhana(disebut juga bob dari pendulum) yang tergantung dari satu ujung kawat tidak dapat diregangkan yang tak bermassa dengan panjang L yang diikat pada ujung lainnya. <i>Bob bebas mengayun bolak-balik pada bidang halaman, ke kiri dan ke kanan garis vertical melalui titik poros pendulum.
+					</p>
+					<p align="justify">
+						Gaya yang bekerja pada bob adalah gaya <img src="img/T.jpg"> dari kawat dan gaya gravitasi <img src="img/F.jpg">, dimana kawat membuat sudut <img src="img/Sudut.jpg"> dengan garis vertikal. Bagi <img src="img/F.jpg"> ke dalam komponen radial <img src="img/Fg.jpg"><img src="img/cos.jpg"> dan komponen <img src="img/Fg.jpg"><img src="img/sin.jpg"> yang bersinggungan dengan jalur yang diambil oleh <i>Bob</i>. Komponen tangensial tersebut akan menghasilkan torsi yang memulihkan di sekitar titik poros pendulum karena komponen selalu bekerja berlawanan dengan perpindahan bob sehingga bob kembali ke lokasi pusatnya.
+					</p>
+					<p align="justify">
+						Dari persamaan <img src="img/teta.jpg">, dapat dituliskan pemulihan torsi ini sebagai :
+					</p>
+					<p align="center">
+						<img src="img/Per1.jpg">
+					</p>
+					<p align="justify">
+						di mana tanda minus pada persamaan di atas menunjukkan bahwa torsi bekerja untuk mengurangi <img src="img/Sudut.jpg"> dan L dengan lengan momen komponen <img src="img/Fg.jpg"><img src="img/sin.jpg"> di sekitar titik poros. Substitusi Persamaan 1.2 ke dalam persamaan <img src="img/Sub.jpg"> dan kemudian ganti <img src="img/F.jpg">=mg, sehingga
+					</p>
+					<p align="center">
+						<img src="img/Per2.jpg">
+					</p>
+					<p align="justify">
+						di mana I adalah inersia rotasi pendulum di sekitar titik poros dan <img src="img/alpa.jpg"> adalah percepatan sudut di sekitar titik tersebut. Kita dapat sederhanakan Persamaan 1.2 dengan mengasumsikan sudut kecil. Dengan pendekatan itu, kita dapatkan :
+					</p>
+					<p align="center">
+						<img src="img/Per3.jpg">
+					</p>
+					<p align="justify">
+						Dengan membandingkan persamaan 1.3 dengan persamaan <img src="img/percepatan.jpg"> (dengan a=percepatan), dapat dilihat bahwa frekuensi sudut pendulum adalah <img src="img/x.jpg">. Kemudian, jika pernyataan di atas untuk <img src="img/w.jpg">, maka periode pendulum dapat ditulis sebagai :
+					</p>
+					<p align="center">
+						<img src="img/Per4.jpg">
+					</p>
+					<p align="justify">
+						 Semua massa pendulum sederhana terkonsentrasi pada massa m partikel, dengan radius L dari titik poros. Dengan demikian, kita dapat menggunakan persamaan <img src="img/I.jpg"> menjadi <img src="img/I2.jpg"> untuk inersia rotasi pendulum. Substitusi persamaan ini ke dalam persamaan 1.4 dan kemudian sederhanakan, sehingga didapat : 
+					</p>
+					<p align="center">
+						<img src="img/Per5.jpg">
+					</p>
+					<p align="left">
+						<strong>Keterangan :</strong>
+						<br>
+							T = Periode<br>
+							L = Panjang Tali<br>
+							m = Massa<br>
+							g = Gravitasi<br>
+							I = Torsi<br>
+							w = Sudut Pendulum<br>
+							α = percepatan sudut<br>
+							Fg = Gaya<br>
+							π = 3.14
+						
+					</p>
+					
+					<br>Sumber : 
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="copyright.html"><p><strong>&copy; Kelompok FYP-08 2015</strong></p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

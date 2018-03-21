@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta eqhttp-uiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>About - Ayunan Bandul</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <div class="brand">AYUNAN BANDUL</div>
+    <div class="address-bar">***PEMBELAJARAN FISIKA***</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">AYUNAN BANDUL</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="materi.html">MATERI</a>
+                    </li>
+                    <li>
+                        <a href="about.html">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    
+                    <h2 class="intro-text text-center">About
+                        <strong>Ayunan Bandul</strong>
+                    </h2>
+                    
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="img/slide-2.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p align="justify">Kami adalah salah satu tim yang bekerja sama dalam membangun suatu web yang bermanfaat bagi anak-anak sekolah terutama anak SMA.</p>
+                    <p align="justify"> Kami disebut dengan Kelompok FYP-8 yang terdiri dari 3 orang mahasiswa / i Institut Teknologi DEL yaitu Budianto A. Hutauruk , Kristine Pangaribuan dan Yohana Situmorang.</p>
+                    <p align="justify">Web ini adalah salah satu tugas Proyek Akhir 1 (PA) kami di tahun 2015 ini yang di berikan oleh dosen kami Pak Lit Malem Ginting dan Pak Arie Satya</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="copyright.html"><p>Copyright &copy; Kelompok FYP-08</p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

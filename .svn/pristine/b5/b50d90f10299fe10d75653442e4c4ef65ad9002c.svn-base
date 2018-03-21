@@ -1,0 +1,164 @@
+$('#set_variables_form').submit(function (e) {
+  e.preventDefault();
+  console.log($('#mass1').val());
+  m1     = $('#mass1').val();
+ // m2     = $('#mass2').val();
+  Phi1   = $('#Phi1').val()/180*(Math.PI);
+  //Phi2   = $('#Phi2').val()/180*(Math.PI);
+  len1 = $('#len1').val();
+  g1 = $('#g1').val();
+  if(g1>=1 && g1<=10) 
+	  g1 = 9.1;
+  else if(g1 >=11 && g1 <= 20)
+	  g1 = 9.2;
+  else if(g1 >=21 && g1 <= 30)
+	  g1 = 9.3;
+  else if(g1 >=31 && g1 <= 40)
+	  g1 = 9.4;
+  else if(g1 >=41 && g1 <= 50)
+	  g1 = 9.5;
+  else if(g1 >=51 && g1 <= 60)
+	  g1 = 9.6;
+  else if(g1 >=61 && g1 <= 70)
+	  g1 = 9.7;
+  else if(g1 >=71 && g1 <= 80)
+	  g1 = 9.8;
+  else if(g1 >=81 && g1 <= 90)
+	  g1 = 9.9;
+  else
+	  g1 = 10;
+  d2Phi1 = 0;
+ // d2Phi2 = 0;
+  dPhi1  = 0;
+ // dPhi2  = 0;
+ 
+ document.getElementById('Len').innerHTML = len1;
+ document.getElementById('Mas').innerHTML = m1;
+ document.getElementById('Gra').innerHTML = g1;
+ //var hasil = 2 * Math.PI * (Math.SQRT2(len1/g1));
+  run();
+});
+
+function drawCircle(myCircle, context) {
+  context.beginPath();
+  context.arc(myCircle.x, myCircle.y, myCircle.mass, 0, 2 * Math.PI, false);
+  context.fillStyle = 'rgba(0,0,0,1)';
+  context.fill();
+}
+
+function drawLine(myLine, context) {
+  context.beginPath();
+  context.moveTo(myLine.x0, myLine.y0);
+  context.lineTo(myLine.x, myLine.y);
+  context.strokeStyle = '#010415';
+  context.lineWidth = 4;
+  context.stroke();
+}
+
+function getPhi1(){
+	mu      =  1+m1/m2; //*1000
+	d2Phi1  =  (g*(Math.sin(Phi2)*Math.cos(Phi1-Phi2)-mu*Math.sin(Phi1))-(l2*dPhi2*dPhi2+l1*dPhi1*dPhi1*Math.cos(Phi1-Phi2))*Math.sin(Phi1-Phi2))/(l1*(mu-Math.cos(Phi1-Phi2)*Math.cos(Phi1-Phi2)));
+//  d2Phi2  =  (mu*g*(Math.sin(Phi1)*Math.cos(Phi1-Phi2)-Math.sin(Phi2))+(mu*l1*dPhi1*dPhi1+l2*dPhi2*dPhi2*Math.cos(Phi1-Phi2))*Math.sin(Phi1-Phi2))/(l2*(mu-Math.cos(Phi1-Phi2)*Math.cos(Phi1-Phi2)));
+  
+	dPhi1   += d2Phi1*time;
+ // dPhi2   += d2Phi2*time;
+	Phi1    += dPhi1*time;
+	return Phi1;
+}
+
+function getXz(){
+	return X0+l1*Math.sin(getPhi1());
+}
+
+function animate(myCircle1, myCircle2, myLine1, myLine2, canvas, context, t) {
+	document.getElementById('timerz').innerHTML = t;
+	document.getElementById('xCurre').innerHTML = Math.round(myCircle1.x);
+	
+  mu      =  1+m1/m2; //*1000
+  d2Phi1  =  (g*(Math.sin(Phi2)*Math.cos(Phi1-Phi2)-mu*Math.sin(Phi1))-(l2*dPhi2*dPhi2+l1*dPhi1*dPhi1*Math.cos(Phi1-Phi2))*Math.sin(Phi1-Phi2))/(l1*(mu-Math.cos(Phi1-Phi2)*Math.cos(Phi1-Phi2)));
+//  d2Phi2  =  (mu*g*(Math.sin(Phi1)*Math.cos(Phi1-Phi2)-Math.sin(Phi2))+(mu*l1*dPhi1*dPhi1+l2*dPhi2*dPhi2*Math.cos(Phi1-Phi2))*Math.sin(Phi1-Phi2))/(l2*(mu-Math.cos(Phi1-Phi2)*Math.cos(Phi1-Phi2)));
+  
+  dPhi1   += d2Phi1*time;
+ // dPhi2   += d2Phi2*time;
+  Phi1    += dPhi1*time;
+ // Phi2    += dPhi2*time;
+
+	//Phi1 = getPhi1();
+	
+  myCircle1.x = X0+l1*Math.sin(Phi1);
+  //window.alert(myCircle1.x);
+  myCircle1.y = Y0+l1*Math.cos(Phi1);
+//  myCircle2.x = X0+l1*Math.sin(Phi1)+l2*Math.sin(Phi2);
+ 
+ 
+ //myCircle2.y = Y0+l1*Math.cos(Phi1)+l2*Math.cos(Phi2);
+
+  myLine1.x  = myCircle1.x;
+  myLine1.y  = myCircle1.y;
+
+  /*myLine2.x0 = myCircle1.x;
+  myLine2.y0 = myCircle1.y;
+  myLine2.x  = myCircle2.x;
+  myLine2.y  = myCircle2.y;*/
+
+  context.clearRect(0, 0, canvas.width, canvas.height);
+
+  drawLine(myLine1, context);
+ // drawLine(myLine2, context);
+  drawCircle(myCircle1, context);
+ // drawCircle(myCircle2, context);
+}
+
+//Physics Constants
+var d2Phi1 = 0;
+//var d2Phi2 = 0;
+var dPhi1  = 0;
+var dPhi2  = 0;
+var Phi1   = 0*(Math.PI)/2;
+var Phi2   = 2.1*(Math.PI)/2;
+var m2     = 0.00001;
+var l1     = 0;
+var l2     = 0;
+var X0     = 350;
+var Y0     = 60;
+var g      = 10;
+var time   = 0.05;
+
+var canvas  = document.getElementById('myCanvas');
+var context = canvas.getContext('2d');
+var init    = {};
+
+function countPhase(){
+
+}
+
+function run(){
+  var myLine1 = {x0: X0, y0: Y0, x: 0, y: 0};
+  var myLine2 = {x0: 0, y0: 0, x: 0, y: 0};
+
+  var myCircle1 = {x: X0+l1*Math.sin(Phi1), y: Y0+l1*Math.cos(Phi1), mass: m1};
+  var myCircle2 = {x: X0+l1*Math.sin(Phi1)+l2*Math.sin(Phi2), y: Y0+l1*Math.cos(Phi1)+l2*Math.cos(Phi2), mass: m2};
+  var t = new Date().getTime();
+  l1 = len1;
+  g = g1;
+  var curre = 0;
+  var stop = 1;
+  var xStop = 0;
+  var xAwal = Math.round(getXz());
+  
+  document.getElementById('xz').innerHTML = Math.round(xAwal);
+
+  clearInterval(init);
+  context.clearRect(0, 0, canvas.width, canvas.height);		//Menghapus line yang sebelumnya yang telah ada
+  //drawCircle(myCircle1, context);
+  init = setInterval(function(){
+    curre = (new Date().getTime() - t)/1000;	//untuk meihat posisi X sekarang
+	//window.alert(xAwal);
+    /*if(Math.round(myCircle1.x) - X0 <= -(xAwal - X0)){							//Berhenti untuk 1 periode
+		document.getElementById('xCurre').innerHTML = Math.round(myCircle1.x);
+        return;
+    }*/
+	animate(myCircle1, myCircle2, myLine1, myLine2, canvas, context, curre);	
+  }, 5);
+
+}

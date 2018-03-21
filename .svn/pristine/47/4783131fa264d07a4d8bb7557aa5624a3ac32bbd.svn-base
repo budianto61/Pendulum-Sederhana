@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Contact - Kelompok FYP-08| Kelompok FYP-08</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+	<script src="js/formValidation.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <div class="brand">AYUNAN BANDUL</div>
+    <!--  <div class="address-bar">***PEMBELAJARAN FISIKA***</div> -->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation" style="padding-left: 78px">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Ayunan Bandul</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+			<br><a href="http://dev-pa1.del.ac.id/"><img src="img/ITDel.jpg"  style="float:left" width="80" height="70"></a>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="materi.html">MATERI</a>
+                    </li>
+                    <li>
+                        <a href="about.html">TENTANG WEB</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">HUBUNGI KAMI</a>
+                    </li>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="index.html"><img src="img/logo1.png"  style="float:right" width="80" height="70" class="img-thumbnail" /></a>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <div class="container">
+	<ul class="breadcrumb">
+		<li><a href="index.html">HOME</a></li>
+		<li class="active">HUBUNGI KAMI</li>
+	</ul>
+        <div class="row">
+            <div class="box">
+			<div class="col-md-9">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Hubungi
+                        <strong>Kami</strong>
+                    </h2>
+                    <hr>
+                    <p>Jika Anda kurang paham tentang materi pembelajaran yang telah kami sediakan, Anda dapat menghubungi kami langsung pada contact form berikut :</p>
+                    <form role="form">
+                        <div class="row">
+                            <div class="form-group col-lg-4">
+                                <label>Nama :</label>
+                                <input placeholder="Masukkan Nama Anda" type="text" class="form-control" id="contact-name" name="name" onkeyup='validateName()'>
+								<span class='error-message' id='name-error'></span>
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Email :</label>
+							<input placeholder="examp@examp.examp" type="email" class="form-control" id="contact-email" name="email" onkeyup='validateEmail()'>
+							<span class='error-message' id='email-error'></span>
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Nomor Telepon :</label>
+                                <input placeholder="Masukkan No. Telp Anda" type="tel" class="form-control" id="contact-phone" name="phone" onkeyup='validatePhone()'>
+								<span class='error-message' id='phone-error'></span>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-lg-12">
+                                <label>Pesan :</label>
+                                <textarea placeholder="Masukkan pesan Anda" class="form-control" rows="6" id='contact-message'  name='message' onkeyup='validateMessage()'></textarea>
+								<span class='error-message' id='message-error'></span>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <input type="hidden" name="save" value="contact">
+                                <button type="submit" class="btn btn-default" onclick='validateForm()'>Submit</button>
+								<span class='error-message' id='submit-error'></span>
+                            </div>
+							
+                        </div>
+                    </form>
+                </div>
+            </div>
+			<div class="col-md-3">
+				<p>Alamat :<br><b>Institut Teknologi Del</b></br><p><b>Jl.Sisingamangaraja, Sitoluama Laguboti, Toba Samosir Sumatra Utara, Indonesia</b></p>
+				<p><b>Kode Pos : 22381</b></p>
+				<p><b> Telp : +62 632 331234</b></p>
+				<p><b>Fax : +62 632 331116</b></p></p>
+			</div>
+        </div>
+		</div>
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="copyright.html"><p>&copy; Kelompok FYP-08 2015</p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+	<script>
+	$(document).ready (function(){
+			//Generate a simple captcha 
+			function randomNumber(min, max){
+					return Math.floor(Math.random() * (max-min+1) + min);
+			}
+			$('#captchaOperation').html([randomNumber(1,100), '+', randomNumber(1, 200), '='].join(' '));
+			
+			$('#basicBootstrapForm').formValidation({
+				framework: 'bootstrap',
+				icon: {
+					valid: 'glyphicon glyphicon-ok',
+					invalid: 'glyphicon glyphicon-remove',
+					validating: 'glyphicon glyphicon-refresh'
+				},
+				fields:{
+					firstName:{
+						row: '.col-xs-4',
+						validators:{
+							notEmpty:{
+								message: 'The fisrt name is required'
+							}
+						}
+					},
+					lastName: {
+						row: '.col-xs-4',
+						validators:{
+							notEmpty: {
+								message: 'The last name is required'
+							}
+						}
+					},
+					username: {
+						validators:{
+							notEmpty: {
+								message: 'The username is required'
+							},
+							stringLength: {
+								min : 6,
+								max : 30,
+								message: 'The username must be more than 6 and less than 30 characters'
+							},
+							regexp:{
+								regexp: /^[a-zA-Z0-9_\.]+$/,
+								message: 'The username can only consist of alphabetical, number, dot and underscore'
+							}
+						}
+					},
+					email: {
+						validators: {
+							notEmpty: {
+								message: 'The email-address is required'
+							},
+							emailAddress: {
+								message:'The input is not a valid email address'
+							}
+						}
+					},
+					password: {
+						validators: {
+							notEmpty: {
+								message: 'The password is required'
+							},
+							different: {
+								field: 'username',
+								message: 'The password cannot be the same as username'
+							}
+						}
+					},
+					gender: {
+						validators:{
+							notEmpty:{
+								message: 'The gender is required'
+							}
+						}
+					},
+					captcha: {
+						validators :{
+							callback : {
+								message : 'Wrong Answer',
+								callback: function(value, validator, $field){
+									var items = $('#captchaOperation').html().split(' '), sum = parseInt(items[0])+ parseInt(items[2]);
+									return value == sum;
+								}
+							}
+						}
+					},
+					agree: {
+						validators: {
+							notEmpty : {
+								message: 'You must agree with the term and condition'
+							}
+						}
+					}
+				}
+			});
+		});
+</script>
+	
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

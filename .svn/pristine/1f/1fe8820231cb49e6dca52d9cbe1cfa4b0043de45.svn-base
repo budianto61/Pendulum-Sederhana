@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Soal & Pembahasan - Ayunan Bandul| Kelompok FYP-08</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+	
+	<link href="css/nav.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+	
+</head>
+
+<body>
+
+    <div class="brand">AYUNAN BANDUL</div>
+  
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation" style="padding-left: 78px">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">AYUNAN BANDUL</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+			<br><a href="http://dev-pa1.del.ac.id/"><img src="img/ITDel.jpg"  style="float:left; margin-top: 11px;" width="80" height="70"></a>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div id="navigation">
+                <ul class="nav navbar-nav">
+                    <li style="padding-bottom: 15px">
+                        <a href="index.html"><strong>BERANDA</strong></a>
+                    </li>
+                    <li>
+                        <a href="materi.html"><strong>MATERI</strong></a>
+                    </li>
+                    <li>
+                        <a href="about.html"><strong>TENTANG WEB</strong></a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><strong>HUBUNGI KAMI</strong></a>
+                    </li>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="index.html"><img src="img/logo1.png"  style="float:right; margin-top: 11px;" width="80" height="70" class="img-thumbnail" /></a>
+                </ul>
+            </div>
+			</div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+	<ul class="breadcrumb" style="margin-left:-16px; margin-right:-15px; border-left-style:solid; border-left-width:0px; padding-left:20px;">
+		<li><a href="index.html">BERANDA</a></li>
+		<li><a href="materi.html">MATERI</a></li>
+		<li class="active">Soal dan Pembahasan</li>
+	</ul>
+        <div class="row">
+            <div class="box">
+            <!--    <div class="col-lg-12">
+                    <hr>
+                    <strong><h2 class="intro-text text-center">Getaran</strong>
+                    </h2>
+                    <hr>
+                </div>	-->
+                <div class="col-lg-12 text-center">
+                <!--    <img class="img-responsive img-border img-full" src="img/slide-2.jpg" alt="">	-->
+                    <h2>Soal dan Pembahasan
+                        <br>
+                        <!--   <small>October 13, 2013</small>-->
+                    </h2>
+                    <p align="justify">1. &nbsp; Sebuah bandul sederhana terdiri dari tali yang mempunyai panjang 40 cm dan pada ujung bawah tali digantungi beban bermassa 100 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gram. Jika percepatan gravitasi 10 m/s2 maka periode dan frekuensi ayunan bandul sederhana adalah…...</p>
+					<p align="justify">Pembahasan &nbsp; :<br>
+										Dik &nbsp; : &nbsp; panjang tali (l) = 40 cm = 0,4 meter<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;percepatan gravitasi (g) = 10 m/s^2<br>
+					Dit &nbsp; : &nbsp;Periode (T) dan Frekuensi (f)<br>
+					Penye. &nbsp; : &nbsp;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rumus periode bandul sederhana :<br>
+					</p>					
+						<center><img src="img/T.png" width="150" height="100" alt=""></center>
+					<p align="justify">
+						&nbsp;&nbsp;&nbsp;&nbsp;Keterangan &nbsp; : <br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	T : Periode<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	l : Panjang<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	g : Percepatan Gravitasi<br>
+								Periode bandul sederhana &nbsp; :
+					</p>
+						<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/Lanjutan_T.jpg" width="180" height="100" alt=""></p>
+				<p align="justify">
+					Frekuensi bandul sederhana &nbsp; :<br>
+					Cara 1 :<br>
+					f = 1/T = 1/1,256 = 0,8 Hertz<br>
+					Cara 2 &nbsp;:<br>
+				</p>
+					<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/frekuensi_R.jpg" width="180" height="120" alt="">
+					
+					</p>
+				<p align="justify">
+					 2.	Hitunglah panjang dawai pada jam bandul yang berdetak satu kali per detik.<br>
+					 <b>&nbsp;&nbsp;&nbsp;&nbsp;Pembahasan</b> <br>
+					 &nbsp;&nbsp;&nbsp;&nbsp;Diketahui &nbsp;:<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;Periode (T) &nbsp;= 1 sekon<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;Percepatan gravitasi (g) &nbsp;= 10 m/s2<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;Ditanya &nbsp;: Panjang dawai (l)<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;Jawab &nbsp;:<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;Rumus periode dawai &nbsp;:<br>	
+				</p>
+					<p align="left"><img src="img/T_dawai.jpg" width="120" height="140" alt=""></p>
+					<p align="left">Panjang dawai :<br></p>
+					<p align="left"><img src="img/P_dawai.jpg" width="180" height="110" alt=""></p>
+					<p align="justify">3.&nbsp;Sebuah bandul sederhana mempunyai tali 50 cm dan beban bermassa 50 gram. Titik tertinggi beban adalah 10 cm di atas titik terendah. Jika percepatan gravitasi 10 m/s2.<br>
+					tentukan &nbsp;: <br>
+					(a) &nbsp;periode dan frekuensi bandul <br>
+					<b>Pembahasan</b><br>
+					Diketahui :<br>
+					Panjang tali (l) = 90 cm = 0,9 meter<br>
+					Percepatan gravitasi (g) = 10 m/s2<br>
+					Jawab :
+					(a) Periode (T) dan frekuensi (f) ayunan bandul sederhana<br>
+					Periode&nbsp;:<br>
+					<p align="left"><img src="img/a.jpg" width="180" height="140" alt=""></p>
+					<p align="left">Frekuensi &nbsp;:<br>
+					f = 1/T = 1/1,884 = 0,53 Hertz.<br></p>
+					<p align="justify"><br>4.(Soal Olimpiade Sains Nasional SMP Tingkat Kabupaten/Kota Tahun 2010 No.18)</p></br>
+					<p align="justify">Sebuah benda bergetar dengan frekuensi 5 Hz dalam arah kanan kiri. Benda mulai bergerak dari posisi setimbang ke arah kanan. Waktu yang diperlukan untuk mencapai titik paling kanan sebelas kali adalah….</p>
+					<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;A.	2,05
+					<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;B.	2,20
+					<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;C.	2,25
+					<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;D.	2,50
+					<p align="justify">Pembahasan
+					<p align="justify">Diketahui :
+					<p align="justify">Frekuensi (f) = jumlah getaran selama 1 sekon = 5 Hz
+					<p align="justify">Periode (T) = waktu untuk melakukan satu getaran = 1/f = 1/5 = 0,2 sekon
+					<p align="justify">Ditanya : Waktu yang diperlukan untuk mencapai titik paling kanan sebelas kali adalah….
+
+					<p align="justify">Jawab :
+					<p align="justify">Pola gerakan benda (1 getaran) : B → C → B → A → B
+					<p align="justify">Selama 1 getaran, benda melakukan 4 gerakan yakni B ke C, C ke B, B ke A, A ke B.
+					<p align="justify">Waktu yang diperlukan untuk melakukan satu gerakan adalah 0,2 sekon / 4 = 0,05 sekon.
+					<p align="justify">Jadi waktu yang diperlukan untuk mencapai titik paling kanan (C) sebelas kali = (10 x 0,2 sekon) + 0,05 sekon = 2 sekon + 0,05 sekon = 2,05 sekon.
+					<p align="justify">Jawaban yang benar adalah A.
+					
+					<p align="justify">Sumber :<a href="www.gurumuda.net">[Soal dan Pembahasan Pendulum Sederhana]</p>
+                </div>        
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="copyright.html"><p><strong>&copy; Kelompok FYP-08 2015</strong></p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

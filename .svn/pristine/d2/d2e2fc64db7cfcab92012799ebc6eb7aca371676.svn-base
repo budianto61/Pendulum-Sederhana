@@ -1,0 +1,24 @@
+#navigation ul li ul{
+	display:none;
+
+}
+
+#navigation ul li :hover ul{
+	display : block;
+	position : absolute;
+	height : 90 px;
+}
+
+#navigation ul li:hover ul li a{
+	display:block;
+	background-color : black;
+	color : grey;
+	width : 250px;
+	border-bottom : 1px solid #ccc;
+}
+
+#navigation  ul li:hover ul li a:hover{
+	background-color :#02fdf4;
+}
+
+#navigation ul li:hover > a{background: #fc2306; }
